@@ -1,0 +1,120 @@
+html {
+  font-family: Lucida Grande;
+  font-size: 18px;
+  color: #4c4c4c;
+  line-height: 1.4;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* HEADER */
+
+header {
+  align-items: center;
+  height: 64px;
+  padding: 8px 8px 8px 24px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 64px;
+}
+
+nav span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.light-grey {
+  color: #a5a5a5;
+  font-weight: normal;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+}
+
+.logo div {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  font-family: Arial;
+}
+
+/* MAIN SECTION */
+
+.main {
+  display: flex;
+  background-color: #e2e2e2;
+  justify-content: flex-start;
+}
+
+.image {
+    max-width: 60%;
+}
+
+.image img {
+  margin: 32px 24px;
+  max-width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 40%;
+  margin: 0 72px 0 72px;
+}
+
+.text h1, .text p{
+  margin-bottom: 32px;
+  max-width: 80%;
+}
+
+.button {
+  background-color: #4c4c4c;
+  color: white;
+  text-align: center;
+  max-width: 80%;
+  padding: 8px 0px;
+}
+
+/* KEEP PRACTICING */
+
+
+/* START LEARNING */
+
+
+/* THESIS EXHIBIT */
+
+
+/* FOOTER */
