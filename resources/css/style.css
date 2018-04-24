@@ -10,12 +10,28 @@ div {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+a {
+  font-size: 1rem;
+  color: #6ca1f7;
+  text-decoration: none;
 }
 
 /* HEADER */
@@ -72,18 +88,21 @@ nav li {
 
 /* MAIN SECTION */
 
-.main {
+.main, .information {
   display: flex;
+  padding: 32px 24px;
+}
+
+.main {
   background-color: #e2e2e2;
-  justify-content: flex-start;
 }
 
 .image {
-    max-width: 60%;
+    max-width: 50%;
+    margin-right: 24px;
 }
 
 .image img {
-  margin: 32px 24px;
   max-width: 100%;
 }
 
@@ -92,10 +111,10 @@ nav li {
   flex-direction: column;
   justify-content: center;
   max-width: 40%;
-  margin: 0 72px 0 72px;
+  margin: 0 72px 0 48px;
 }
 
-.text h1, .text p{
+.text h1, .text h2 {
   margin-bottom: 32px;
   max-width: 80%;
 }
@@ -105,13 +124,59 @@ nav li {
   color: white;
   text-align: center;
   max-width: 80%;
-  padding: 8px 0px;
+  padding: 16px 0px;
 }
 
 /* KEEP PRACTICING */
 
+.information img {
+  padding-bottom: 32px;
+}
+
+.information h1 {
+  margin-bottom: 32px;
+}
+
+.quote-text {
+  margin-bottom: 32px;
+  font-style: italic;
+}
+
+.images {
+  max-width: 40%;
+  align-items: center;
+  border: 2px solid #e2e2e2;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail img {
+  width: 35%;
+  height: 35%;
+  padding: 0px 16px 16px 16px;
+}
+
+.thumbnail p, .thumbnail h3, .thumbnail a {
+  display: inline-flex;
+  padding-left: 24px;
+}
+
+.details {
+  max-width: 65%;
+  padding: 16px 16px 16px 0px;
+  line-height: 1.5;
+}
+
+#grey-thumbnail {
+  background-color: #e2e2e2;
+  padding-top: 16px;
+}
 
 /* START LEARNING */
+
 
 
 /* THESIS EXHIBIT */
