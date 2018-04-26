@@ -95,6 +95,7 @@ nav li {
 
 .main {
   background-color: #e2e2e2;
+  justify-content: center;
 }
 
 .image {
@@ -177,7 +178,40 @@ nav li {
 
 /* START LEARNING */
 
+#start-learning {
+  display: flex;
+  margin: 32px 0px;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.courses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.course {
+  display: flex;
+  max-width: 20%;
+  flex-direction: column;
+  margin-left: 32px;
+}
+
+.course img {
+  height: auto;
+  width: 100%;
+}
+
+.course-info {
+  background-color: white;
+  padding: 16px 16px 16px 16px;
+}
+
+.course-info div {
+  margin-bottom: 8px;
+}
 
 /* THESIS EXHIBIT */
 
