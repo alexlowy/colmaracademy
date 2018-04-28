@@ -48,6 +48,10 @@ nav {
   align-items: center;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 nav img {
   height: 64px;
 }
@@ -84,6 +88,10 @@ nav li, footer li {
 .menu {
   display: flex;
   font-family: Arial;
+}
+
+.mobile-menu {
+  display: none;
 }
 
 /* MAIN SECTION */
@@ -248,4 +256,25 @@ footer {
   font-family: Arial;
   display: flex;
   justify-content: space-between;
+}
+
+/* MEDIA QUERIES FOR MOBILE VIEW */
+
+@media only screen and (max-width: 700px) {
+  nav .title {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    font-family: Arial;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  nav {
+    justify-content: space-around;
+  }
 }
