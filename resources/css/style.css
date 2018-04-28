@@ -25,7 +25,7 @@ h3 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 a {
@@ -155,9 +155,9 @@ nav li {
 }
 
 .thumbnail img {
-  width: 35%;
-  height: 35%;
-  padding: 0px 16px 16px 16px;
+  width: 30%;
+  height: 30%;
+  padding: 16px 16px 16px 16px;
 }
 
 .thumbnail p, .thumbnail h3, .thumbnail a {
@@ -180,7 +180,6 @@ nav li {
 
 #start-learning {
   display: flex;
-  margin: 32px 0px;
   max-width: 100%;
   flex-wrap: wrap;
   justify-content: center;
@@ -194,26 +193,29 @@ nav li {
 
 .course {
   display: flex;
-  max-width: 20%;
+  background-color: white;
+  width: 15em;
   flex-direction: column;
-  margin-left: 32px;
+  height: 18em;
+  margin-right: 3em;
 }
 
 .course img {
   height: auto;
-  width: 100%;
+  width: 110%;
 }
 
 .course-info {
-  background-color: white;
-  padding: 16px 16px 16px 16px;
-}
-
-.course-info div {
-  margin-bottom: 8px;
+  width: 15em;
+  line-height: 2;
+  padding-left: 1em;
 }
 
 /* THESIS EXHIBIT */
 
+.thesis-images {
+  max-width: 40%;
+  align-items: center;
+}
 
 /* FOOTER */
